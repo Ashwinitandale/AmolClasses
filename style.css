@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    color: black;
+    text-align: center;
+   height: 50px;
+   padding: 23px;
+   font-size: 52px;
+   width: 30%;
+   margin: auto;
+   background-color: burlywood;
+   box-shadow: 10px 5px 5px black;
+   font-style: italic;
+   font-weight: bold;
+
+
+}
+
+.mainbox{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 41px 64px;
+    padding-left: 34px;
+    border-radius: 15px;
+    
+    
+
+}
+body{
+    background-color: rgb(197, 202, 212);
+  
+}
+.firstSec{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(187, 148, 148);
+    border-radius: 35px;
+    margin: 10px 76px;
+    box-shadow: 10px 5px 5px black;
+
+}
+.secondSec{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(187, 148, 148);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 35px;
+    margin: 26px 85px;
+}
+.firstHalf p{
+    margin-top: 200px;
+    margin-top: 34px;
+}
+ .img{
+    height: inherit(5);
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    margin-top: 74px;
+    border: 2px solid black;
+    border-radius: 90px;
+    
+}
+.secondHalf p{
+    margin-top: 200px;
+    margin-top: 34px;
+}
+.message{
+    
+    width: 83%;
+    margin: auto;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-radius: 30px;
+}
+.mess h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 12px;
+    margin: 0px 0px;
+    background-color: burlywood;
+    box-shadow: 10px 5px 5px black;
+    width: 83%;
+    margin:auto;
+    border-radius: 15px;
+
+}
+.mess-founder{
+
+width: 83%;
+border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color:rgb(187, 148, 148);
+    margin-top: 54px;
+    border-radius: 15px;
+    
+}
+.para{
+    box-shadow: 10px 5px 5px black;
+    height: 323px;
+    padding:83px 62px;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+

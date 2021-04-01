@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        body {
+            background: center/cover no-repeat url("bg7.jpg");
+            opacity: 0.8;
+        }
+
+        .container {
+            text-align: center;
+            justify-content: center;
+            /* display: flex; */
+
+        }
+
+        h1 {
+            text-align: center;
+            justify-content: center;
+            margin-top: 23px;
+            padding: 23px;
+            color: red;
+            font-weight: bold;
+            font: bold;
+            /* font-size: 23px; */
+
+
+        }
+
+        .myInput {
+            display: flex;
+            /* text-align: center; */
+            justify-content: center;
+            /* align-items: center; */
+            width: 60%;
+            margin: 24px 280px;
+            padding: 9px 0px;
+            border: 2px solid black;
+            border-radius: 10px;
+
+
+
+        }
+
+        #btn {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            margin: 8px 280px;
+            padding: 9px 0px;
+            border: 2px solid black;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 23px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            CONTACT US
+        </h1>
+        <form action="contact.php" method="POST">
+            <input type="text" class="myInput" name="firstName" placeholder="your firstName">
+            <input type="lastName" class="myInput" name="password" placeholder="your lastName">
+            <input type="email" class="myInput" name="email" placeholder="your email">
+            <input type="address" class="myInput" name="address" placeholder="your address">
+            <textarea name="info" class="myInput" cols="30" rows="10" placeholder="tell me abut yourself"></textarea>
+            <button id="btn">submit</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
